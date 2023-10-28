@@ -1,0 +1,200 @@
+.repository {
+    background-color: black;
+    font-family: 'Roboto', sans-serif;
+    display: flex;
+    /* padding: 0rem 2rem 0rem; */
+    gap: 1rem;
+}
+
+.repoExplorer {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    padding: 1rem;
+}
+
+.expTitle {
+    color: white;
+    text-transform: uppercase;
+    border-bottom: 0.1rem solid rgb(136, 237, 255);
+}
+
+.repoNames {
+    display: flex;
+    flex-direction: column;
+    gap: 0.4rem;
+    height: 36.1rem;
+    overflow: auto;
+}
+
+.repoNameHie {
+    color: white;
+    /* margin: 0 0.8rem 0 0; */
+    border: 0.1rem solid #86deff;
+    padding: 0.3rem;
+    border-radius: 0.3rem;
+    text-decoration: none;
+}
+
+.lineRepo {
+    flex: 0.005;
+    width: 1px;
+    height: 41.22rem;
+    background-color: rgb(102, 214, 255);
+}
+
+.editorBox {
+    flex: 4;
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    align-items: center;
+    gap: 1rem;
+    padding-right: 1rem;
+}
+
+.repoBox {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 1rem 1rem 1rem;
+    gap: 1rem;
+    border: 2px solid rgb(79, 214, 255);
+    border-radius: 1rem;
+}
+
+.RepoTitle {
+    color: white;
+    font-size: 2rem;
+    padding: 0.73rem;
+    text-transform: uppercase;
+}
+
+.inputForm {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+}
+
+.repoName {
+    background: none;
+    border: 2px solid #78f1ff;
+    border-radius: 1rem;
+    width: 40%;
+    padding: 0.4rem 0.5rem;
+    color: white;
+}
+
+.codeArea {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: baseline;
+    gap: 1rem;
+    width: 90%;
+    background: none;
+    padding: 0.3rem 1rem;
+    border-radius: 1rem;
+    border: 2px solid #00e5ff;
+    color: white;
+}
+
+.buttonSubmit {
+    width: 100%;
+    text-align: center;
+}
+
+.repoBtn {
+    padding: 0.4rem 0;
+    color: white;
+    background-color: #ff7800;
+    font-size: 1.2rem;
+    border: none;
+    cursor: pointer;
+    width: 80%;
+}
+
+/* For Webkit browsers (e.g., Chrome, Safari) */
+.repoNames::-webkit-scrollbar {
+    width: 0.4rem;
+    padding-left: 1rem;
+}
+
+.repoNames::-webkit-scrollbar-thumb {
+    background-color: #888;
+    /* Color of the scrollbar handle */
+    border-radius: 6px;
+}
+
+/* For Firefox */
+.repoNames {
+    scrollbar-width: thin;
+    scrollbar-color: #888 #f5f5f5;
+    /* Color of the scrollbar handle and track */
+}
+
+/* For Internet Explorer and Edge */
+.repoNames {
+    -ms-overflow-style: none;
+    /* Hide scrollbar in IE and Edge */
+    scrollbar-width: thin;
+    /* Add a thin scrollbar in IE and Edge */
+}
+
+.repoNames::-webkit-scrollbar-thumb:hover {
+    background-color: #555;
+    /* Change color on hover */
+}
+
+
+@media screen and (max-width: 800px) {
+    .inputForm {
+        flex-direction: column;
+    }
+
+    .repoBox {
+        width: 90%;
+    }
+
+    .repoName {
+        width: 90%;
+    }
+
+    .codeArea {
+        height: 16rem;
+    }
+
+    .repoExplorer {
+        padding: 1rem 0rem 0 1rem;
+    }
+
+    .inputForm {
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 610px) {
+    .RepoTitle {
+        font-size: 1rem;
+    }
+    .repoNameHie{
+        font-size: 0.7rem;
+    }
+    .repoBtn{
+        font-size: 0.7rem;
+    }
+    .expTitle{
+        font-size: 0.7rem;
+    }
+}
+@media screen and (max-width: 400px) {
+    .repoNameHie{
+        font-size: 0.5rem;
+    }
+    .repoName{
+        font-size: 0.5rem;
+    }
+}

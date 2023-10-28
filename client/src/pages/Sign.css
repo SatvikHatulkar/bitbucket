@@ -1,0 +1,127 @@
+.full_screen{
+    padding: 3.45rem 0;
+    background-color: black;
+}
+
+.bg_sign {
+    display: flex;
+    flex-direction: column;
+    color: rgb(201, 201, 201);
+    justify-content: center;
+    align-items: center;
+    font-family: 'Roboto', sans-serif;
+    gap: 1rem;
+}
+
+.box {
+    border: 0.7px solid rgb(43, 168, 246);
+    border-radius: 1rem;
+    background-color: #0a0a40;
+    padding: 1.5rem;
+    font-family: 'Permanent Marker', cursive;
+    text-shadow: 1px 1px 6px #12effe, -1px -1px 1px rgb(56, 205, 255);
+    width: 35%;
+}
+.sign_text{
+    font-size: 2rem;
+    font-weight: lighter;
+    color: rgb(206 205 205);
+    text-shadow: 1px 1px 9px #12effe, -1px -1px 1px rgb(56, 205, 255);
+}
+
+input::placeholder{
+    font-family: 'Roboto', sans-serif;
+    color: rgba(255, 255, 255, 0.489);
+}
+
+.sign_message {
+    width: 100%;
+
+}
+
+.sign_form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
+}
+
+.label_username {
+    padding: 1rem 0 0.3rem 0;
+}
+
+.input_username {
+    border: none;
+    padding: 0.5rem;
+    width: 95%;
+    border-radius: 0.4rem;
+    background-color: #9370db4d;
+    color: white;
+}
+
+.label_email {
+    padding: 1rem 0 0.3rem 0;
+}
+
+.input_email {
+    border: none;
+    padding: 0.5rem;
+    width: 95%;
+    border-radius: 0.4rem;
+    background-color: #9370db4d;
+    color: white;
+}
+
+.label_password {
+    padding: 1rem 0 0.3rem 0;
+}
+
+.input_password {
+    border: none;
+    padding: 0.5rem;
+    width: 95%;
+    border-radius: 0.4rem;
+    background-color: #9370db4d;
+    color: white;
+}
+
+.sign_btn {
+    border: none;
+    padding: 0.5rem;
+    width: 100%;
+    border-radius: 0.4rem;
+    background-color: rgb(255, 98, 0);
+    margin: 1.6rem 0;
+    color: white;
+    cursor: pointer;
+}
+
+@media screen and (max-width: 700px) {  
+    .box{
+        width: 58%;
+    } 
+    .sign_text {
+        font-size: 1rem;
+    }
+    .sign_message {
+        font-size: 0.7rem;
+    }
+    .label_username {
+        font-size: 0.7rem;
+    }
+    .label_email{
+        font-size: 0.7rem;
+    }
+    .label_password{
+        font-size: 0.7rem;
+    }
+    .input_username{
+        font-size: 0.7rem;
+    }
+    .input_email{
+        font-size: 0.7rem;
+    }
+    .input_password{
+        font-size: 0.7rem;
+    }
+}

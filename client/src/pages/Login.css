@@ -1,0 +1,118 @@
+.login{
+    background-color: black;
+}
+.login_container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 7rem;
+    font-family: 'Roboto', sans-serif;
+    padding: 9.4rem 0;
+}
+
+.main_logo {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Metal Mania', cursive;
+}
+
+.logo_img {
+    width: 6rem;
+    height: 6rem;
+    border-radius: 2rem;
+}
+
+.login_form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+}
+
+.form {
+    background-color: rgb(1, 6, 29);
+    padding: 1rem;
+    border-radius: 1rem;
+}
+
+.inputs {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+}
+
+.username {
+    border: none;
+    background: none;
+    border-bottom: 2px solid white;
+    margin: 1rem 1rem;
+    text-align: center;
+    padding: 0.3rem;
+    width: 17rem;
+    color: white;
+}
+
+.password {
+    border: none;
+    background: none;
+    border-bottom: 2px solid white;
+    margin: 1rem 1rem;
+    text-align: center;
+    padding: 0.3rem;
+    width: 17rem;
+    color: white;
+}
+
+.submit {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    color: white;
+    /* gap: 5rem; */
+    padding: 2rem 0 1rem 0;
+}
+
+.txt_small {
+    font-size: 0.7rem;
+
+}
+.sign_redirect{
+    color: orange;
+}
+.flex{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 0.5rem;
+    color: white;
+}
+.radio_text{
+    font-size: small;
+}
+
+@media screen and (max-width: 607px) {
+    .login_container {
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+        gap: 1rem;
+        font-family: 'Roboto', sans-serif;
+        padding: 5rem 0;
+    }
+    .logo_img {
+        width: 90%;
+        height: 4rem;
+        border-radius: 2rem;
+    }
+    .username {
+        width: 85%;
+    }
+    .password {
+        width: 85%;
+    }
+}

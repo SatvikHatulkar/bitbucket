@@ -1,0 +1,271 @@
+.line{
+    border-top: 0.16rem solid white;
+    border-bottom: 0.16rem solid white;
+    margin: 10% 29.5%;
+    padding: 0.7rem;
+}
+.line-horizontal1{
+    background-color: white;
+    width: 0.2rem;
+    height: 7rem;
+    position: absolute;
+    top: 21.6rem;
+    left: 28rem;
+}
+.line-horizontal2{
+    background-color: white;
+    width: 0.2rem;
+    height: 7rem;
+    position: absolute;
+    top: 30.7rem;
+    left: 66.8rem;
+}
+.home_container {
+    font-family: 'Roboto', sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-shadow: 1px 1px 15px black, -1px -1px 15px black;
+}
+
+.fontRoboto {
+    font-family: 'Roboto', sans-serif;
+}
+
+.tag_home {
+    transform: rotate(-90deg);
+    font-family: 'Roboto', sans-serif;
+    color: white;
+    font-size: 2rem;
+    font-weight: 500;
+    margin-top: 2.5rem;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+.main_home {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.mainTagHome {
+    color: transparent;
+    font-family: 'Roboto', sans-serif;
+    -webkit-text-stroke-width: 2px;
+    -webkit-text-stroke-color: #ff9e00;
+    letter-spacing: 2px;
+    font-size: 200%;
+    font-weight: bolder;
+    text-transform: uppercase;
+    margin-top: 1.7rem;
+}
+
+.mainWordsHome {
+    font-family: 'Roboto', sans-serif;
+    font-size: 400%;
+    color: white;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+
+.mainButtonsHome {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    /* gap: 2rem; */
+    margin: 1.4rem 0 2rem;
+    text-shadow: 1px 1px 15px black, -1px -1px 15px black;
+}
+
+.exploreHome {}
+
+.expBtn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 0.5rem;
+    font-family: 'Roboto', sans-serif;
+    background-color: #ff7800;
+    color: white;
+    border: none;
+    padding: 0.5rem 1.2rem;
+    font-size: 0.9rem;
+    border-radius: 0.3rem;
+    cursor: pointer;
+}
+
+.wordExp{
+    font-family: 'Roboto', sans-serif;
+    
+}
+
+.signHome {
+    font-family: 'Roboto', sans-serif;
+}
+
+.signBtn {
+    cursor: pointer;
+    font-family: 'Roboto', sans-serif;
+    background: none;
+    border: 1.8px solid orange;
+    color: white;
+    font-size: 1rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 0.5rem;
+    padding: 0.4rem 0.8rem;
+    border-radius: 0.3rem;
+    text-shadow: 1px 1px 4px black, -1px -1px 4px black;
+    cursor: pointer;
+}
+.signup{
+    color: white;
+    text-decoration: none;
+}
+
+.myRepo{
+    font-size: 1rem;
+    text-transform: uppercase;
+}
+.wordExp{
+    text-transform: uppercase;
+}
+
+@media screen and (max-width: 1270px) {
+    .tag_home {
+        transform: rotate(-90deg);
+        font-family: 'Roboto', sans-serif;
+        color: white;
+        font-size: 1.6rem;
+        font-weight: 500;
+        margin-top: 2.5rem;
+        text-transform: uppercase;
+        letter-spacing: 1px;
+    }
+
+    .mainWordsHome {
+        font-family: 'Roboto', sans-serif;
+        font-size: 250%;
+        color: white;
+        font-weight: 600;
+        text-transform: uppercase;
+    }
+
+    .mainTagHome {
+        color: transparent;
+        font-family: 'Roboto', sans-serif;
+        -webkit-text-stroke-width: 2px;
+        -webkit-text-stroke-color: #ff9e00;
+        letter-spacing: 2px;
+        font-size: 150%;
+        font-weight: bolder;
+        text-transform: uppercase;
+        margin-top: 1.7rem;
+    }
+}
+
+@media screen and (max-width: 725px) {
+    .mainWordsHome {
+        font-family: 'Roboto', sans-serif;
+        font-size: 180%;
+        color: white;
+        font-weight: 600;
+        text-transform: uppercase;
+    }
+    
+    .mainTagHome {
+        color: transparent;
+        font-family: 'Roboto', sans-serif;
+        -webkit-text-stroke-width: 2px;
+        -webkit-text-stroke-color: #ff9e00;
+        letter-spacing: 2px;
+        font-size: 110%;
+        font-weight: bolder;
+        text-transform: uppercase;
+        margin-top: 1.7rem;
+    }
+    
+    .tag_home {
+        transform: rotate(-90deg);
+        font-family: 'Roboto', sans-serif;
+        color: white;
+        font-size: 1.3rem;
+        font-weight: 500;
+        margin-top: 2.5rem;
+        text-transform: uppercase;
+        letter-spacing: 1px;
+    }
+    .expBtn{
+        font-size: 0.5rem;
+    }
+    
+    .myRepo{
+        font-size: 0.5rem;
+    } 
+
+}
+
+@media screen and (max-width: 380px) {
+    .line {
+        border-top: 0.16rem solid white;
+        border-bottom: 0.16rem solid white;
+        margin: 10% 10%;
+        padding: 0.7rem;
+        display: flex;
+        flex-direction: column;
+        /* justify-content: center; */
+        /* align-items: center; */
+    }
+
+    .mainButtonsHome {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        /* gap: 2rem; */
+        margin: 2.4rem 0 1rem;
+        text-shadow: 1px 1px 15px black, -1px -1px 15px black;
+    }
+
+}
+
+@media screen and (max-width: 340px) {
+    .mainWordsHome {
+        font-family: 'Roboto', sans-serif;
+        font-size: 130%;
+        color: white;
+        font-weight: 600;
+        text-transform: uppercase;
+    }
+    .tag_home {
+        font-size: 1rem;
+    }
+    .mainTagHome {
+        color: transparent;
+        font-family: 'Roboto', sans-serif;
+        -webkit-text-stroke-width: 2px;
+        -webkit-text-stroke-color: #ff9e00;
+        letter-spacing: 2px;
+        font-size: 100%;
+        font-weight: bolder;
+        text-transform: uppercase;
+    }
+    .expBtn {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 0.5rem;
+        font-family: 'Roboto', sans-serif;
+        background-color: #ff7800;
+        color: white;
+        border: none;
+        padding: 0.5rem 1rem;
+        font-size: 0.4rem;
+        border-radius: 0.3rem;
+        cursor: pointer;
+    }
+    .myRepo {
+        font-size: 0.4rem;
+    }
+}

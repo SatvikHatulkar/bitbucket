@@ -1,0 +1,84 @@
+.community {
+    background-color: black;
+    font-family: 'Roboto', sans-serif;
+    padding: 6rem 3rem;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.communityBG {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 3rem;
+    text-align: center;
+}
+
+.comimg {
+    width: 100%;
+    height: 38rem;
+}
+
+.notice_cumm {
+    position: relative;
+    top: -33rem;
+    width: 100%;
+    text-align: center;
+}
+
+.notice_txt {
+    text-transform: uppercase;
+    font-size: 2rem;
+    font-weight: 200;
+}
+
+.join_btn {
+    padding: 0.5rem 0.5rem;
+    text-transform: uppercase;
+    background-color: #ff7800;
+    border: none;
+    color: white;
+    margin: 1rem;
+    cursor: pointer;
+}
+
+.join_btn:hover{
+    background-color:blueviolet ;
+    transition: all 0.5s ease-in-out;
+}
+
+.orange {
+    color: #ff7800;
+    font-weight: 500;
+}
+
+.join_comm_txt {
+    width: 100%;
+    font-size: 2rem;
+    font-weight: 100;
+}
+
+@media screen and (max-width: 725px) {
+    .notice_cumm {
+        position: relative;
+        top: -48rem;
+        width: 100%;
+        text-align: center;
+    }
+}
+
+@media screen and (max-width: 450px) {
+    .notice_cumm {
+        top: -69rem;
+    }    
+}
+
+@media screen and (max-width: 340px) {
+    .notice_cumm {
+        top: -90rem;
+    }    
+}

@@ -1,0 +1,174 @@
+.pos_fixed {
+    position: sticky;
+    top: 0;
+    z-index: 99;
+}
+
+.nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding-top: 1.4rem;
+    font-family: 'Metal Mania', cursive;
+}
+
+.logo:hover {
+    transition: all ease-in-out 0.5s;
+    color: rgb(223, 222, 222);
+}
+
+.color_white {
+    color: white;
+}
+
+.logo_profile {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+}
+
+.profile-pic {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 0.1rem;
+}
+
+.pic {
+    width: 2.5rem;
+    height: 2.5rem;
+    border-radius: 50%;
+    background-color: white;
+}
+
+.pic:hover {
+    transition: all ease-in-out 0.5s;
+    background-color: rgb(223, 222, 222);
+}
+
+.profile_username {
+    color: white;
+    font-size: 1rem;
+    cursor: pointer;
+}
+
+.logo {
+    font-size: 1.5rem;
+}
+
+.bold {
+    font-weight: bold;
+    font-size: 2rem;
+}
+
+.ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 3rem;
+}
+
+.nav_link {
+    text-decoration: none;
+    cursor: pointer;
+    /* color: black; */
+}
+
+.list_items {
+    list-style: none;
+}
+
+.list_items:hover {
+    transition: all ease-in-out 0.5s;
+    color: rgb(189, 189, 189);
+}
+
+.login_btn {
+    padding: 0.3rem 0.9rem;
+    font-size: 1rem;
+    color: white;
+    background-color: #f9751f;
+    border: none;
+    cursor: pointer;
+    border-radius: 0.2rem;
+}
+
+.login {
+    /* box-shadow:  1px 1px 6px white, -1px -1px 6px white; */
+    box-shadow: rgba(231, 243, 255, 0.2) 0px 8px 24px;
+}
+
+.login_btn:hover {
+    transition: all 1s ease-in-out;
+    background-color: rgb(50, 14, 83);
+
+}
+
+.showHam {
+    display: block;
+}
+
+.hamMenuNone {
+    display: none;
+}
+
+.noHam{
+    display: none;
+}
+
+.hamburger-menu {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    position: absolute;
+    top: 0rem;
+    padding: 3rem 3rem;
+    left: 0;
+    background-color: white;
+    border-radius: 0 1rem 1rem 0;
+    gap: 2rem;
+}
+
+.showIcoHam {
+display: none;
+}
+
+.hamNav {
+    padding: 0.5rem 4rem;
+    font-size: 0.7rem;
+    font-family: cursive;
+}
+
+.NavSlider{
+    display: block;
+}
+
+.navUsername{
+    color: white;
+}
+
+@media screen and (max-width: 725px) {
+    .navUsername{
+        color: black;
+        font-size: 0.5rem;
+    }
+
+    .pic{
+        width: 1.5rem;
+        height: 1.5rem;
+    }
+    .NavSlider{
+        display: none;
+    }
+    .hamNavbar{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .login_btn{
+        font-size: 0.5rem;
+    }
+}

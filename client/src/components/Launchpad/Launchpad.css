@@ -1,0 +1,157 @@
+.launchpad {
+    background-color: black;
+    padding: 2rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 2rem;
+    color: white;
+    font-family: 'Roboto', sans-serif;
+}
+
+.name_launchpad {
+    font-size: 2rem;
+    padding: 3rem 0 0 2rem;
+}
+
+.launchpad_sides {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+}
+
+.img_section_launchpad {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+}
+
+.img_section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+}
+
+.img_launchpad {
+    width: 40%;
+    height: 15rem;
+    cursor: pointer;
+}
+
+.img_launchpad:hover {
+    box-shadow: 0.3px 0.3px 10px rgba(255, 255, 255, 0.2), -0.3px -0.3px 10px rgba(255, 255, 255, 0.2);
+    transition: all 0.3s ease-in-out;
+}
+
+.launchpad_form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 1rem;
+    border: 2px solid rgb(88, 199, 255);
+    padding: 2rem;
+    color: white;
+    border-radius: 0.5rem;
+}
+
+.inputs_name_tags {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+}
+
+.repo_name {
+    background: none;
+    padding: 0.5rem;
+    border-radius: 1rem;
+    border: 2px solid rgba(94, 209, 254, 0.188);
+    width: 100%;
+    color: white;
+}
+
+.repo_name::placeholder {
+    padding: 0.3rem 0 0.3rem 0.5rem;
+    font-size: 0.7rem;
+    color: rgb(86, 204, 255);
+}
+
+/* .repo_tags{
+    
+} */
+.code_area {
+    background: none;
+    border-radius: 1rem;
+    border: 2px solid rgba(94, 209, 254, 0.188);
+    resize: none;
+    padding: 1rem;
+    color: white;
+}
+
+.code_area::placeholder {
+    padding-left: 1.2rem;
+    color: rgb(86, 204, 255);
+
+}
+
+.button_submit {}
+
+.launchpad_btn {
+    border: 2px solid rgb(84, 164, 245);
+    border-radius: 2rem;
+    width: 100%;
+    background: none;
+    color: rgb(255, 128, 0);
+    padding: 0.6rem 2rem;
+    cursor: pointer;
+}
+
+.launchpad_btn:hover{
+    background-color: rgb(20 2 37);
+    transition: all 0.5s ease-in-out;
+}
+
+.lauCol {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 1rem;
+    width: 100%;
+}
+
+@media screen and (max-width: 1270px) {
+    .launchpad_sides {
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+        gap: 2rem;
+    }
+}
+
+@media screen and (max-width: 450px) {
+    /* .lauCol {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        gap: 1rem;
+        
+    } */
+}
+
+@media screen and (max-width: 450px) {
+    .inputs_name_tags {
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+        gap: 1rem;
+    }
+    .launchpad_form {
+        padding: 1rem;
+    }
+}

@@ -1,0 +1,188 @@
+.profile {
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    /* align-items: center; */
+    color: white;
+    font-family: 'Roboto', sans-serif;
+}
+
+.profile_about {
+    flex: 1;
+    padding: 2rem;
+}
+
+.info_box {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+    background-color: rgb(3 2 29);
+    padding: 2rem 0;
+    border-radius: 1rem;
+}
+
+.txt_info_box {
+    display: flex;
+    justify-content: center;
+}
+
+.profile_img {
+    width: 7rem;
+    height: 7rem;
+    background-color: #fff;
+    border-radius: 50%;
+}
+
+.static {
+    color: gray;
+}
+
+td {
+    padding: 1rem;
+}
+
+.show_about {
+    text-transform: capitalize;
+    color: gray;
+}
+
+.show_about_info {}
+
+.follow_now {}
+
+.follow_btn {
+    background-color: #ff6f00;
+    border: none;
+    padding: 0.5rem 11rem;
+    font-size: 1.1rem;
+    color: white;
+    border-radius: 0.2rem;
+    cursor: pointer;
+}
+
+.edit_now{
+    width: 100%;
+    text-align: center;
+    background-color: #51007d;
+    padding: 0.5rem 0;
+}
+
+.edit_btn {
+    background-color: #35005900;
+    border: none;
+    font-size: 1.1rem;
+    color: white;
+    border-radius: 0.2rem;
+    cursor: pointer;
+}
+
+.divider_line {
+    flex: 0.005;
+    width: 1px;
+    height: 37.22rem;
+    background-color: rgb(102, 214, 255);
+}
+
+.section_repo{
+    flex: 2;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    gap: 1rem;
+    padding-left: 2rem;
+}
+
+.repo_of_profile {
+    height: 31.8rem;
+    overflow: auto;
+    display: flex;
+    flex-direction: column;
+}
+
+.repo_column{
+    width: 75%;
+    text-decoration: none;
+    color: white;
+}
+
+.padding_top_less{
+    width: 100%;
+    padding: 0 0;
+}
+.upl_date {
+    border-top: 1px solid rgb(102, 176, 255);
+    padding-top: 0.4rem;
+    font-size: 0.8rem;
+}
+
+/* For Webkit browsers (e.g., Chrome, Safari) */
+.repo_of_profile::-webkit-scrollbar {
+    width: 0.4rem;
+    padding-left: 1rem;
+}
+
+.repo_of_profile::-webkit-scrollbar-thumb {
+    background-color: #888; /* Color of the scrollbar handle */
+    border-radius: 6px;
+}
+
+/* For Firefox */
+.repo_of_profile {
+    scrollbar-width: thin;
+    scrollbar-color: #888 #f5f5f5; /* Color of the scrollbar handle and track */
+}
+
+/* For Internet Explorer and Edge */
+.repo_of_profile {
+    -ms-overflow-style: none; /* Hide scrollbar in IE and Edge */
+    scrollbar-width: thin; /* Add a thin scrollbar in IE and Edge */
+}
+
+.repo_of_profile::-webkit-scrollbar-thumb:hover {
+    background-color: #555; /* Change color on hover */
+}
+.logo{
+    cursor: pointer;
+}
+
+@media screen and (max-width: 725px) {
+    .color_white {
+        color: black;
+        -webkit-text-stroke: 0.3px white;
+    }
+}
+
+@media screen and (max-width: 850px) {
+    .profile {
+        background-color: black;
+        display: flex;
+        justify-content: center;
+        align-items: normal;
+        color: white;
+        font-family: 'Roboto', sans-serif;
+        flex-direction: column;
+    }
+}
+
+
+@media (min-width: 1279px) and (max-width: 1280px) and (min-height: 799px) and (max-height: 800px) {
+    .repo_of_profile {
+        height: 42.4rem;
+        overflow: auto;
+        display: flex;
+        flex-direction: column;
+    }
+}
+
+@media (min-width: 911px) and (max-width: 912px) and (min-height: 1367px) and (max-height: 1368px) {
+
+.repo_of_profile {
+    height: 77.8rem;
+    overflow: auto;
+    display: flex;
+    flex-direction: column;
+}
+
+}

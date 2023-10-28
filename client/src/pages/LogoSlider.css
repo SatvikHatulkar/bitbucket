@@ -1,0 +1,10 @@
+.fsLow{
+    -webkit-text-stroke: 0.1px white;
+}
+
+@media screen and (max-width: 725px) {
+    .fsLow{
+        font-size: 1rem;
+        color: black;
+    }
+}

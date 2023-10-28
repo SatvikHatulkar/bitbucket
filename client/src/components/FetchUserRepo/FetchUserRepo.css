@@ -1,0 +1,466 @@
+.fetchUserRepo {
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    /* align-items: center; */
+    font-family: 'Roboto', sans-serif;
+    color: white;
+}
+
+.repoExplorer {
+    flex: 1.5;
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    /* align-items: center; */
+    gap: 2rem;
+}
+
+.explorerName {
+    font-size: 1.5rem;
+    border-bottom: 1px solid #00ffd5;
+}
+
+.exploreSection {
+    display: flex;
+    justify-content: center;
+    /* align-items: center; */
+    gap: 1rem;
+    height: 35.1rem;
+    overflow: auto;
+    padding-right: 1rem;
+}
+
+.reposection {
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    align-items: center;
+    gap: 1rem;
+}
+
+.repositories {
+    padding: 1.5rem 1.5rem 2rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid #00e7ff;
+    border-radius: 0.6rem;
+    width: 100%;
+}
+
+.expBox {
+    padding: 0.5rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border: 2px solid #00e7ff;
+    border-radius: 0.6rem;
+    width: 100%;
+    height: 1rem;
+}
+
+.repositoryName {
+    font-size: 1rem;
+}
+
+.options {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 0.5rem;
+}
+
+i {
+    font-size: 0.7rem;
+    cursor: pointer;
+}
+
+.repositorysSlider1 {
+    display: none;
+    transform: translate(0.4rem, 0.1rem);
+    padding: 0.3rem 0 0 0;
+    width: 100%;
+}
+
+.repositorysSlider2 {
+    display: none;
+    transform: translate(0.6rem, 0.3rem);
+    padding: 0.3rem 0 0 0;
+    width: 100%;
+}
+
+.fixer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1.2rem;
+    width: 100%;
+}
+
+.onlyBOx{
+    width: 100%;
+}
+
+.fixer1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 0.6rem;
+    width: 100%;
+}
+
+.repoF1 {
+    padding: 0.3rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border: 1.8px solid #77bac1;
+    border-radius: 0.6rem;
+    width: 96%;
+    height: 1rem;
+}
+
+.repoF2 {
+    padding: 0.2rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border: 1.6px solid #537f84;
+    border-radius: 0.6rem;
+    width: 91%;
+    height: 1rem;
+}
+
+.folName {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 0.9rem;
+}
+
+.filName {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 0.8rem;
+}
+
+.lineRepo {
+    flex: 0.005;
+    width: 1px;
+    height: 41.22rem;
+    background-color: rgb(102, 214, 255);
+}
+
+.ld {
+    font-size: 0.7rem;
+}
+
+.mld {
+    font-size: 0.5rem;
+}
+
+.opt {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.oprionBox {
+    display: none;
+    position: relative;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 0.4rem;
+    border: 2px solid rgb(154, 218, 255);
+    font-size: 0.7rem;
+    padding: 0.3rem;
+    top: 1.3rem;
+    left: 0rem;
+    background-color: #80808054;
+    border-radius: 0.4rem;
+    z-index: 99;
+}
+
+.oprionBox1 {
+    display: none;
+    position: relative;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 0.4rem;
+    border: 2px solid rgb(154, 218, 255);
+    font-size: 0.7rem;
+    padding: 0.3rem;
+    top: 1.3rem;
+    left: 0rem;
+    background-color: #80808054;
+    border-radius: 0.4rem;
+    z-index: 99;
+}
+
+.oprionBox2 {
+    display: none;
+    position: relative;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 0.4rem;
+    border: 2px solid rgb(154, 218, 255);
+    font-size: 0.7rem;
+    padding: 0.3rem;
+    top: 1.3rem;
+    left: 0rem;
+    background-color: #80808054;
+    border-radius: 0.4rem;
+    z-index: 99;
+}
+
+.renameTool1 {
+    display: none;
+    cursor: pointer;
+}
+
+
+.DeleteTool1 {
+    display: none;
+    cursor: pointer;
+}
+
+.renameTool2 {
+    display: none;
+    cursor: pointer;
+}
+
+
+.DeleteTool2 {
+    display: none;
+    cursor: pointer;
+}
+
+.renameTool3 {
+    display: none;
+    cursor: pointer;
+}
+
+
+.DeleteTool3 {
+    display: none;
+    cursor: pointer;
+}
+
+.block {
+    display: flex;
+}
+
+
+.repoView {
+    flex: 4;
+    padding: 1rem 1rem 0;
+}
+
+.fexhedData {
+    border: 2px solid #8eecff;
+    padding: 1rem;
+    border-radius: 1rem;
+}
+
+.dataContainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 1rem;
+}
+
+.rName {
+    font-size: 1.8rem;
+    border-bottom: 2px solid #00b8ff;
+}
+
+.foName {
+    font-size: 1.5rem;
+    border-bottom: 2px solid #00b8ff;
+}
+
+.fiName {
+    font-size: 1rem;
+    border-bottom: 2px solid #00b8ff;
+}
+
+.codeArea1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: baseline;
+    gap: 1rem;
+    width: 100%;
+}
+
+.CodeExp {
+    background: none;
+    color: white;
+    border: none;
+    resize: none;
+    width: 100%;
+    height: 21rem;
+    /* padding: 0 1rem; */
+}
+
+.linedivider {
+    height: 0.1rem;
+    background-color: #00b8ff;
+    width: 100%;
+}
+
+.showSlider {
+    height: 5rem;
+    /* or your desired height */
+    transition: height 0.7s ease-in-out;
+    padding: 0.3rem 0 0 0;
+    /* Adjust padding when shown */
+}
+
+/* ... (your existing styles) */
+
+.repositorysSlider1.active {
+    display: block;
+    padding: 0.3rem 0 0 0;
+}
+
+.repositorysSlider2.active {
+    display: block;
+    transition: height 0.7s ease-in-out;
+    padding: 0.3rem 0 0 0;
+}
+
+.editBox {
+    border: 2px solid rgb(172, 212, 255);
+    border-radius: 1rem;
+    padding: 0.3rem 1rem;
+    color: white;
+    font-size: 1rem;
+    cursor: pointer;
+}
+
+.btns {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.saveBTN {
+    color: white;
+    background-color: #ff6500;
+    border: none;
+    border-radius: 1rem;
+    width: 20%;
+    height: 2rem;
+    margin: 1rem 0 0;
+    cursor: pointer;
+}
+
+.BackBTN {
+    color: white;
+    background-color: #ff6500;
+    border: none;
+    border-radius: 1rem;
+    width: 20%;
+    height: 2rem;
+    margin: 1rem 0 0;
+    cursor: pointer;
+}
+
+
+.itemsRename {
+    background: none;
+    border: none;
+    color: white;
+}
+
+/* For Webkit browsers (e.g., Chrome, Safari) */
+.exploreSection::-webkit-scrollbar {
+    width: 0.4rem;
+    height: 0.4rem;
+    padding-left: 1rem;
+}
+
+.exploreSection::-webkit-scrollbar-thumb {
+    background-color: #888;
+    /* Color of the scrollbar handle */
+    border-radius: 6px;
+}
+
+/* For Firefox */
+.exploreSection {
+    scrollbar-width: thin;
+    scrollbar-color: #888 #f5f5f5;
+    /* Color of the scrollbar handle and track */
+}
+
+/* For Internet Explorer and Edge */
+.exploreSection {
+    -ms-overflow-style: none;
+    /* Hide scrollbar in IE and Edge */
+    scrollbar-width: thin;
+    /* Add a thin scrollbar in IE and Edge */
+}
+
+.exploreSection::-webkit-scrollbar-thumb:hover {
+    background-color: #555;
+    /* Change color on hover */
+}
+
+@media screen and (max-width: 1231px) {   
+    .fetchUserRepo {
+        flex-direction: column;
+    }
+    .exploreSection {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: flex-start;
+        gap: 1rem;
+        overflow-x: auto;
+        overflow-y: auto;
+        padding-right: 1rem;
+        height: 30%;
+    }
+    .reposection {
+        flex-direction: row;
+        padding: 1rem 0;
+    }
+    .repositoryName {
+        font-size: 0.7rem;
+    }
+    .folName{
+        font-size: 0.8rem;
+    }
+    .filName{
+        font-size: 0.7rem;
+    }
+}
+
+@media screen and (max-width: 300px) {   
+    .rName {
+        font-size: 1.2rem;
+    }
+    .foName {
+        font-size: 1rem;
+    }
+    .fiName {
+        font-size: 0.8rem;
+    }
+    .editBox{
+        font-size: 0.7rem;
+    }
+    .CodeExp {
+        font-size: 0.6rem;
+    }
+}

@@ -1,0 +1,91 @@
+.ChangePass {
+    background-color: black;
+    color: white;
+    font-family: 'Roboto', sans-serif;
+}
+
+.sectionDiv {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+    padding: 6.3rem;
+}
+
+.sec_name {
+    font-size: 2rem;
+}
+
+.changePassForm {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid #81f3ff;
+    border-radius: 1rem;
+    padding: 2rem 3rem;
+    gap: 2rem;
+}
+
+.inputDiv {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 0.5rem;
+}
+
+.labelText {}
+
+.input_text {
+    width: 100%;
+    padding: 0.5rem;
+    border: 2px solid #6ed1ff;
+    background: none;
+    border-radius: 1rem;
+    color: white;
+}
+
+.ChangeBTN {
+    padding: 0.5rem 0;
+    background-color: #ff7800;
+    color: white;
+    font-size: 0.8rem;
+    border: none;
+    cursor: pointer;
+    width: 75%;
+}
+
+.ChangeBTN:hover {
+    background-color: #210041;
+    transition: all 1s ease-in-out;
+}
+
+.backDiv {
+    width: 17rem;
+    background-color: #ff7f00;
+    text-align: center;
+    padding: 0.5rem 0;
+    cursor: pointer;
+}
+
+.backBTN {
+    /* padding: 0.5rem 13rem; */
+    color: white;
+    font-size: 1rem;
+    background-color: #ff800000;
+    border: none;
+    cursor: pointer;
+}
+
+.backBTN:hover {
+    background-color: #210041;
+    transition: all 1s ease-in-out;
+}
+
+
+@media screen and (max-width: 360px) {
+    .backDiv {
+        width: 75%;
+    }
+}
