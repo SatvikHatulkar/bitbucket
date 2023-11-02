@@ -1,4 +1,4 @@
-**Project Description: BitBucket - Your Code Collaboration Platform**
+**BitBucket - Your Code Collaboration Platform**
 
 BitBucket is a robust web-based platform meticulously crafted for developers, designed to streamline code collaboration and project management. This innovative website, developed with precision and dedication, serves as a virtual haven for coders, akin to GitHub but with its unique flair.
 
